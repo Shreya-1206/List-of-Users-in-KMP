@@ -62,7 +62,7 @@ fun ListOfUsers(name : String, occupation : String, imageId : Int) {
     ) {
         Image(
             painterResource(id = imageId) ,
-            contentDescription = "user_img",
+            contentDescription = "user_img1",
             modifier = Modifier.size(100.dp))
         Column (
             modifier = Modifier
